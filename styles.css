@@ -1,25 +1,17 @@
+body 
+{
+    background-color: #ffe6ac;
+    position:absolute;
+}
 .header-style
 {
     text-align: center;
 }
-.div1
+.FloatButton
 {
-    color:blueviolet;
-    text-align-last: center;
-    position: relative;
-    left: 500px;
-    width: 880px;    
-}
-.floatH
-{ 
-    color:black;
-    float:center;
-    margin: 0; 
-}
-input::before
-{
-    border: none;
-    outline: 2px solid rgb(255, 20, 20);
+    float:right;
+    margin: auto;
+    top: 50%;
 }
 .firstcheck:checked
 {
@@ -30,4 +22,14 @@ input::before
 {
     border: none;
     outline: 2px solid rgb(20, 24, 255);
+}
+.wrapper
+{
+    margin: 10px;
+}
+.wrapper-element
+{   max-width: auto;
+    margin: 10px;
+    text-align: left;
+    display: flex;
 }
