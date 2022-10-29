@@ -1,0 +1,33 @@
+.header-style
+{
+    text-align: center;
+}
+.div1
+{
+    color:blueviolet;
+    text-align-last: center;
+    position: relative;
+    left: 500px;
+    width: 880px;    
+}
+.floatH
+{ 
+    color:black;
+    float:center;
+    margin: 0; 
+}
+input::before
+{
+    border: none;
+    outline: 2px solid rgb(255, 20, 20);
+}
+.firstcheck:checked
+{
+    border: none;
+    outline: 2px solid rgb(39, 255, 20);
+}
+.secondcheck:checked
+{
+    border: none;
+    outline: 2px solid rgb(20, 24, 255);
+}
